@@ -1,0 +1,49 @@
+using System;
+
+namespace operatorler // Note: actual namespace depends on the project name.
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+        int x = 20;
+        int y = 40;
+        y/= 1;
+            Console.WriteLine(y);
+            x+= 5;
+            Console.WriteLine(x);
+//MANTIKSAL OPERATÖR
+            bool isSucces = true;
+            bool isCompleted = false;
+            if(isSucces && isCompleted )
+            Console.WriteLine("Perfect!");
+            if(isSucces || isCompleted)
+            Console.WriteLine("EHH!!!");
+            if(isSucces && !isCompleted)
+            Console.WriteLine("BAAADDD");
+// İLİŞKİSEL OPERATÖR < > <= >= ==
+int a = 5;
+int b = 6;
+bool sonuc = a<b;
+Console.WriteLine(sonuc);
+sonuc = a==b;
+Console.WriteLine(sonuc);
+sonuc = a>b;
+Console.WriteLine(sonuc);
+//ARİTMETİK OPERATÖRLER / + - *
+int k = 3;
+int l = 15;
+int sonuc1 = k + l;
+Console.WriteLine(sonuc1);
+sonuc1 = k / l;
+Console.WriteLine(sonuc1);
+sonuc1 = k - l;
+Console.WriteLine(sonuc1);
+sonuc1 = k * l;
+Console.WriteLine(sonuc1);
+// mod alma %
+sonuc1 = 20%5;
+Console.WriteLine(sonuc1);
+        }
+    }
+}
